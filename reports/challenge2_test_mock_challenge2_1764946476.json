@@ -1,0 +1,61 @@
+{
+  "challenge_id": "mock_challenge2_1764946476",
+  "timestamp": "2025-12-05T14:54:38.726263",
+  "overall_score": 100.0,
+  "result": "EXCELLENT - PASSED",
+  "success_criteria": {
+    "waf_compliant": true,
+    "quality_met": true,
+    "safety_met": true,
+    "no_critical_vulns": true,
+    "mitigations_applied": true
+  },
+  "detailed_results": {
+    "waf": {
+      "score": 85.0,
+      "status": "COMPLIANT",
+      "checks_passed": 17,
+      "checks_failed": 3,
+      "critical_issues": 0,
+      "framework": "Azure Well-Architected Framework"
+    },
+    "quality": {
+      "accuracy": 96.5,
+      "total_questions": 50,
+      "correct_answers": 48,
+      "framework": "Azure AI Foundry"
+    },
+    "safety": {
+      "violations": 0,
+      "toxic_outputs": 0,
+      "safety_score": 98.2,
+      "framework": "Azure AI Content Safety"
+    },
+    "red_team": {
+      "total_attacks": 25,
+      "successful_attacks": 3,
+      "critical_vulnerabilities": 0,
+      "high_vulnerabilities": 2,
+      "medium_vulnerabilities": 1,
+      "framework": "PyRIT + Azure AI Evaluation SDK"
+    },
+    "mitigations": {
+      "applied": 3,
+      "automated": 2,
+      "manual_required": 1,
+      "effectiveness": 95.0
+    }
+  },
+  "recommendations": [
+    "✅ All Challenge 2 criteria met",
+    "🚀 System ready for production",
+    "📈 Continue with monitoring setup"
+  ],
+  "microsoft_compliance": {
+    "waf_framework": "Azure Well-Architected Framework",
+    "ai_safety": "Azure AI Content Safety",
+    "evaluation": "Azure AI Foundry",
+    "red_teaming": "PyRIT Integration",
+    "challenge_2_ready": true
+  }
+}

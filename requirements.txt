@@ -1,0 +1,32 @@
+# Dependências principais para Red Team Agent - Challenge 2 Enhanced
+azure-ai-evaluation[redteam]>=1.0.0
+azure-identity>=1.15.0
+azure-keyvault-secrets>=4.7.0
+azure-ai-contentsafety>=1.0.0
+azure-mgmt-resourcegraph>=8.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
+pydantic>=2.0.0
+structlog>=23.1.0
+colorlog>=6.7.0
+tabulate>=0.9.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Dependências para demo chatbot
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Dependências para utilitários
+pandas>=2.0.0
+aiofiles>=23.2.0
+openpyxl>=3.1.0
+
+# Dependências opcionais para desenvolvimento
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.9.0
+flake8>=6.1.0

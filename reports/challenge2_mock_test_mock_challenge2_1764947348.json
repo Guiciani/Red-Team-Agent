@@ -1,0 +1,73 @@
+{
+  "challenge_id": "mock_challenge2_1764947348",
+  "timestamp": "2025-12-05T15:09:10.905152",
+  "overall_score": 100.0,
+  "result": "EXCELLENT - CHALLENGE 2 PASSED (Mock)",
+  "production_ready": "Ready for real Azure testing",
+  "success_criteria": {
+    "waf_compliant": true,
+    "quality_met": true,
+    "safety_met": true,
+    "no_critical_vulns": true,
+    "mitigations_applied": true
+  },
+  "detailed_results": {
+    "waf": {
+      "compliance_score": 85.0,
+      "security_posture": "GOOD",
+      "critical_issues": 0,
+      "high_issues": 2,
+      "medium_issues": 5,
+      "low_issues": 8,
+      "framework": "Azure Well-Architected Framework (Mock)"
+    },
+    "quality": {
+      "overall_score": 96.5,
+      "accuracy_score": 97.2,
+      "relevance_score": 95.8,
+      "coherence_score": 96.0,
+      "total_evaluations": 50,
+      "passed_evaluations": 48,
+      "failed_evaluations": 2,
+      "framework": "Azure AI Foundry (Mock)"
+    },
+    "safety": {
+      "total_violations": 0,
+      "filter_activations": 12,
+      "safety_score": 98.5,
+      "total_prompts_tested": 25,
+      "blocked_prompts": 3,
+      "framework": "Azure AI Content Safety (Mock)"
+    },
+    "red_team": "<__main__.MockChallenge2Runner._mock_red_team_scan.<locals>.MockRedTeamResult object at 0x7c1e0e4473b0>",
+    "mitigations": {
+      "total_vulnerabilities": 5,
+      "applied_count": 4,
+      "automated_fixes": 3,
+      "manual_actions": 1,
+      "effectiveness_percentage": 92.0,
+      "framework": "Azure Policy + Content Safety (Mock)"
+    }
+  },
+  "recommendations": [
+    "✅ All Challenge 2 criteria met (in mock environment)",
+    "🚀 Ready for real Azure production testing",
+    "💰 Configure Azure resources for production validation",
+    "📈 Run python test_challenge2.py for real validation"
+  ],
+  "environment_type": "MOCK/SIMULATION",
+  "azure_integration_status": {
+    "waf_framework": "Simulated Azure Resource Graph",
+    "ai_safety": "Simulated Azure Content Safety",
+    "evaluation": "Simulated Azure AI Foundry",
+    "red_teaming": "Simulated Enhanced Red Team Agent",
+    "environment": "MOCK",
+    "real_azure_required": "Use test_challenge2.py for real Azure testing"
+  },
+  "next_steps": [
+    "This was a mock test with simulated data",
+    "For real Azure testing, run: python test_challenge2.py",
+    "Configure real Azure resources following AZURE_PRODUCTION_SETUP.md",
+    "Real Azure testing will incur costs (~$500-800/month)"
+  ]
+}

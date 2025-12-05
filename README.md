@@ -298,11 +298,7 @@ This framework is intended exclusively for:
 - Academic research in AI security
 - Security compliance and auditing
 
-**DO NOT** use this framework for:
-- Malicious attacks
-- Unauthorized testing on third-party systems
-- Violation of terms of service
-- Illegal activities
+**DO NOT** use this framework for any other purpose.
 
 ## 📞 Support
 
@@ -312,4 +308,4 @@ This framework is intended exclusively for:
 
 ---
 
-**Developed with ❤️ for AI security**
+**Developed for AI security**
